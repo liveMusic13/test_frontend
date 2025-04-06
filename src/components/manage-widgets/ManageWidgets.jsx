@@ -1,5 +1,6 @@
 const ManageWidgets = ({ layout, addWidget, removeWidget }) => {
 	const allWidgets = [
+		{ i: 'LIQN', x: 3, y: 0, w: 3, h: 2 },
 		{ i: 'New Task', x: 0, y: 0, w: 4, h: 2 },
 		{ i: 'Open Task', x: 4, y: 0, w: 4, h: 3 },
 		{ i: 'Due Today', x: 8, y: 0, w: 4, h: 4 },

@@ -5,9 +5,9 @@ export const useDashboard = () => {
 	const LOCAL_STORAGE_KEY = 'dashboard-layout';
 
 	const defaultLayout = [
+		{ i: 'LIQN', x: 3, y: 0, w: 3, h: 2 },
 		{ i: 'New Task', x: 0, y: 0, w: 4, h: 2 },
 		{ i: 'Open Task', x: 4, y: 0, w: 4, h: 3 },
-		{ i: 'Due Today', x: 8, y: 0, w: 4, h: 4 },
 		{ i: 'TaskDeadlines', x: 0, y: 2, w: 6, h: 2 },
 	];
 
